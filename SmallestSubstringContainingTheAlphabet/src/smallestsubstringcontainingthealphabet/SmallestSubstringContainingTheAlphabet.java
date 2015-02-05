@@ -10,17 +10,9 @@ package smallestsubstringcontainingthealphabet;
  * @author Win7
  */
 
-//        for (int i = 0; i < counting.length; i++) {
-//            count[(int) counting[i]]++;
-//        }
-//        for (int i = 0; i < count.length; i++) {
-//            if(count[i] != 0 )
-//                System.out.println((char)i);
-//        }
 public class SmallestSubstringContainingTheAlphabet {
 
-    //I believe that its possible for a more effective solution to be produced.
-    //
+    
     public static String smallestSubstringContainingTheAlphabet(String str, String key) {
         int minLen = 0;
         int currentPosition = 0;
